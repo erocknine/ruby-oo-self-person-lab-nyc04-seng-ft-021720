@@ -53,8 +53,10 @@ class Person
     case topic
     when politics
       starter.happiness += -2
+      "blah blah partisan blah lobbyist"
+    when weather
+      starter.happiness += 
       
-    
     
   end
   
