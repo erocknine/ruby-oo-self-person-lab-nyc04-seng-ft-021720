@@ -44,6 +44,12 @@ class Person
     "♪ another one bites the dust ♫"
   end
   
+  def call_friend(friend)
+    self.happiness = @happiness+= 3
+    friend.happiness = self.happiness+=3
+    
+  end
+  
   def limiter(num)
     number = num
     number = 10 if num > 10
