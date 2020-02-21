@@ -47,6 +47,7 @@ class Person
   def call_friend(friend)
     self.happiness = @happiness+= 3
     friend.happiness += 3
+    "Hi #{friend}! It's #{self}. How are you?"
   end
   
   def start_conversation(starter, topic)
