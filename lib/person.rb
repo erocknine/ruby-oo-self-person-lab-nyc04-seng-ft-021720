@@ -52,10 +52,10 @@ class Person
   
   def start_conversation(starter, topic)
     case topic
-    when politics
+    when "politics"
       starter.happiness += -2
       "blah blah partisan blah lobbyist"
-    when weather
+    when "weather"
       starter.happiness += 1
       "blah blah sun blah rain"
     else
