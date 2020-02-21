@@ -41,6 +41,7 @@ class Person
   def work_out
     self.hygiene = @hygiene += -3
     self.happiness = @happiness += 2
+    "♪ another one bites the dust ♫"
   end
   
   def limiter(num)
