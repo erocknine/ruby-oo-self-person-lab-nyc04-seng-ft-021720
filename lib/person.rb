@@ -56,8 +56,9 @@ class Person
       "blah blah partisan blah lobbyist"
     when weather
       starter.happiness += 1
+      "blah blah sun blah rain"
+    else
       
-    
   end
   
   def limiter(num)
