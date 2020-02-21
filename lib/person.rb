@@ -56,7 +56,7 @@ class Person
       starter.happiness += -2
       "blah blah partisan blah lobbyist"
     when "weather"
-      starter.happiness += 1
+      starter.happiness = self.happiness + 1
       "blah blah sun blah rain"
     else
       "blah blah blah blah blah"
