@@ -55,7 +55,7 @@ class Person
       starter.happiness += -2
       "blah blah partisan blah lobbyist"
     when weather
-      starter.happiness += 
+      starter.happiness += 1
       
     
   end
