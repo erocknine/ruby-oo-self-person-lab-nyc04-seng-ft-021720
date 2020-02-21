@@ -34,6 +34,7 @@ class Person
   end
   
   def happiness=(num)
+    @happiness = num
     @happiness = limiter(num)
   end
   
