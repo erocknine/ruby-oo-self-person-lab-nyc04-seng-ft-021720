@@ -38,6 +38,10 @@ class Person
     @happiness = limiter(num)
   end
   
+  def work_out
+    
+  end
+  
   def limiter(num)
     number = num
     number = 10 if num > 10
